@@ -1,0 +1,40 @@
+{
+	"packages":
+	[
+		{
+			"name": "RCSnail",
+			"maintainer": "RCSnail LLC",
+			"websiteURL": "http://www.rcsnail.ee/",
+			"help":
+			{
+				"online": "https://www.rcsnail.ee/"
+			},
+
+			"platforms":
+			[
+				{
+					"name": "RCSnail",
+					"architecture": "avr",
+					"version": "1.0.2",
+					"category": "ATmega",
+					"help":
+					{
+						"online": "http://www.rcsnail.ee/"
+					},
+					"url": "https://rcsnail.github.io/btcar/boards/RCSnail-1.0.2.zip",
+					"archiveFileName": "RCSnail-1.0.2.zip",
+					"checksum": "SHA-256:32961fe5de1e8c03b3089c6ebbabac3a9b8eb95178988641694db5eb23ac9835",
+					"size": "53309",
+					"boards":
+					[
+						{"name": "RCSnail Mini BT motor shield v0.5"}
+					],
+					"toolsDependencies": 
+					[
+					]
+				}
+			],
+			"tools": []
+		}
+	]
+}
